@@ -1,0 +1,14 @@
+body * {
+  text-align: center;
+}
+body>h1 {
+  color: blue;
+}
+
+body>a {
+  display: block;
+  border: 1px solid lightblue;
+  color: lightblue;
+  margin: 0 auto;
+  width: 10%;
+}

@@ -1,0 +1,28 @@
+body * {
+  text-align: center;
+}
+body>h1 {
+  color: blue;
+}
+
+body>p {
+  border: 1px solid lightblue;
+  color: lightblue;
+  width: 30%;
+  margin: 0 auto;
+}
+
+body>.btn {
+  display: block;
+  background-color: lightblue;
+  color: white;
+  margin: 15px auto;
+  width: 10%;
+  height: 40px;
+}
+
+body>.btn:hover {
+  opacity: 0.5;
+  color: white;
+  cursor: pointer;
+}

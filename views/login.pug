@@ -1,0 +1,11 @@
+html
+    head
+        title Google Auth
+    style
+        include login.css
+    body
+        if(user)
+            h1 Hi, Jestes zalogowany jako #{user.displayName} o id: #{user.id}
+            a(href="/store") Got to store
+        else
+            a(href="/auth/google") Not recognized, try again
